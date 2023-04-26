@@ -30,7 +30,7 @@ To register a face, send a POST request to /Register_faces/ with an image file a
 Example using curl:
 curl -X POST -F "uploaded_file=@/path/to/image.jpg" -F "name=John Doe" http://localhost:8000/Register_faces/
 
-#Recognising Faces
+# Recognising Faces
 To recognize faces in an image, send a POST request to /Recognise_faces/ with an image file. The image file should be in JPEG format.
 
 Example using curl:
